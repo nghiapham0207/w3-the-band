@@ -12,10 +12,6 @@
         line-height: 2;
     }
 
-    #footer .socials-list {
-        font-size: 48px;
-    }
-
     #footer .socials-list a {
         margin: 0 8px;
     }
@@ -27,7 +23,11 @@
 }
 
 /* Tablet */
-@media only screen and (min-width: 740px) and (max-width: 1023px) {}
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+    #footer .socials-list {
+        font-size: 48px;
+    }
+}
 
 /* Mobile */
 @media only screen and (max-width: 740px) {
