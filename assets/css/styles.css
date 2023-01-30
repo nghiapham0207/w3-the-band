@@ -249,6 +249,7 @@ html {
     color: white;
     transform: translateX(-50%);
     text-align: center;
+    text-shadow: 0 0 2px #000;
 }
 
 .slider .text-heading {
